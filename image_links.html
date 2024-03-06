@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, footer {
+            padding: 20px;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .image-container {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .image-container img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Image Links</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#menu">Menu</a>
+    </nav>
+    <main>
+        <section id="home" class="image-container">
+            <h2>Home</h2>
+            <p>Welcome to our website! Here's an image related to technology:</p>
+            <a href="https://bootstrapmade.com/technology"><img src="image 1.webp" alt="Technology"></a>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Here are some images related to nature:</p>
+            <div class="image-container">
+                <a href="https://naturebliss.co.uk/nature1"><img src="image 2.webp" alt="Nature 1"></a>
+            </div>
+            <div class="image-container">
+                <a href="https://www.natureshaven.earth/nature2"><img src="image 3.jpeg" alt="Nature 2"></a>
+            </div>
+            <div class="image-container">
+                <a href="https://earthcanvas.com.au/nature3"><img src="image 4.jpeg" alt="Nature 3"></a>
+            </div>
+        </section>
+        <section id="menu">
+            <h2>Menu</h2>
+            <p>Check out our delicious menu items:</p>
+            <ul>
+                <li><a href="https://fitfoodiefinds.com/food1"><img src="image 5.jpeg" alt="Food 1"></a></li>
+                <li><a href="https://tastebite.com/food2"><img src="image 6.jpeg" alt="Food 2"></a></li>
+                <li><a href="https://culinarycorner.org/food3"><img src="image 7.webp" alt="Food 3"></a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Image Links</p>
+    </footer>
+</body>
+</html>
